@@ -1,1 +1,2 @@
 ﻿document.querySelectorAll('form[data-static-form]').forEach(f=>f.addEventListener('submit',e=>{const fu=f.querySelector('[name="follow_up"]'),em=f.querySelector('[name="email"]'),s=f.querySelector('[data-form-status]');if(fu&&fu.checked&&em&&!em.value.trim()){e.preventDefault();em.focus();if(s)s.textContent='Please add an email address if you would like follow-up.';return}e.preventDefault();if(s)s.textContent='This form is ready for launch. Connect it to Hostinger forms or the ministry email workflow before publishing.';}));
+

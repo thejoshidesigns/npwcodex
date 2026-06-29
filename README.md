@@ -1,6 +1,34 @@
-﻿# New Pathwalker MVP Website
+# New Path Walker
 
-Static Hostinger-friendly MVP. Open index.html locally. Forms are in demo mode and must be connected to Hostinger forms or a secure ministry email workflow before publishing.
+New Path Walker is a secure, faith-centered community platform foundation built
+with Next.js, TypeScript, Tailwind CSS, Prisma, Auth.js/NextAuth, MySQL, and
+Nodemailer.
 
-Git/GitHub CLI are not available locally; give Codex an existing owner/npwcodex repo and it can upload through the GitHub connector.
+Step 1 intentionally includes placeholders only. Do not add authentication,
+database models, forms, forums, prayer workflows, messaging, admin tools, or API
+routes until the relevant feature step is approved.
 
+## Local Development
+
+```bash
+npm install
+npm run dev
+```
+
+## Quality Checks
+
+```bash
+npm run lint
+npm run typecheck
+npm run format:check
+npm run build
+```
+
+## Environment
+
+Copy `.env.example` to `.env.local` and fill in values when database,
+authentication, and email features are ready to be implemented.
+
+## Documentation
+
+Project documentation lives in `docs/`.

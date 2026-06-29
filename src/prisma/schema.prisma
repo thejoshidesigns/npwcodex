@@ -1,0 +1,12 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+// Step 1 intentionally defines no application models.
+// Add models in feature-specific steps after auth, privacy, and moderation
+// requirements are approved.
